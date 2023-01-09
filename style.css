@@ -148,13 +148,13 @@ span#min, span#doisponto, span#seg{
                 }
                 
                      #dados-definidos h2 {
-                        margin: 10px;
+                        margin: 5px;
                         font-size: 30px;
                         color: red;
                 }
                     .display{
                         width: 100%;
-                        transform: translate(-50%, -70%);
+                        transform: translate(-50%, -80%);
                     }
                     input{
                         width: 70px;
