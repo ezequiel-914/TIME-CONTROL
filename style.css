@@ -8,6 +8,15 @@
     font-size: 40px;
     font-family: 'glitch';
 }
+:root{
+    --cor1:#B771FA;
+    --cor2:#ff1c1c;
+    --cor3:#5A00AD;
+    --cor4:#F2CB05;
+    --cor5:#A65D03;
+    --cor6:#22fc29;
+    --cor7:#1790BF;
+}
 
 
 @font-face {
@@ -94,7 +103,7 @@ input#iniciar{
 }
 span#min, span#doisponto, span#seg{
     color: orange;
-    font-size: 140px;
+    font-size: 180px;
     font-weight: 200;
     font-family: glitch;
     
