@@ -149,6 +149,7 @@ span#min, span#doisponto, span#seg{
                 }
                     .display{
                         width: 100%;
+                        transform: translate(-50%, -70%);
                     }
                     input{
                         width: 70px;
