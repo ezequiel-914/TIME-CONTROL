@@ -141,6 +141,7 @@ span#min, span#doisponto, span#seg{
 
                     body{
                         width: 100%;
+                        justify-content: space-around;
                     }
                     #data-txt, #hora-txt{
                         width: 200px;
