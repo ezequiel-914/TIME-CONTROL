@@ -97,13 +97,13 @@ input#iniciar{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    height: 220px;
+    height: 120px;
     width: 435px;
     text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.579);
 }
 span#min, span#doisponto, span#seg{
     color: orange;
-    font-size: 180px;
+    font-size: 140px;
     font-weight: 200;
     font-family: glitch;
     
