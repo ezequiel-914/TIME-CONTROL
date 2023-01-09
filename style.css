@@ -151,7 +151,7 @@ span#min, span#doisponto, span#seg{
                      #dados-definidos h2 {
                         margin: 5px;
                         font-size: 30px;
-                        color: red;
+                        color: rgb(88, 88, 88);
                         margin-bottom: 10px;
                 }
                     .display{
