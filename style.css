@@ -142,10 +142,15 @@ span#min, span#doisponto, span#seg{
                     body{
                         width: 100%;
                     }
+                    #data-txt, #hora-txt{
+                        width: 200px;
+                        font-size: 18px;
+                }
                 
                      #dados-definidos h2 {
-                    margin: 10px;
-                    font-size: 35px;
+                        margin: 10px;
+                        font-size: 30px;
+                        color: red;
                 }
                     .display{
                         width: 100%;
