@@ -145,13 +145,15 @@ function tempototal(){
         document.getElementById('segtot').innerHTML=segundostotal;
     }
     
-}
-
+} 
+    //reproducir automaticamente el video para evitar que la pantalla se apague
+    
     //DISPARAR AS FUNCOES
 
 function start(){
     tmp=setInterval(timer,1000);
-    
+    document.getElementById('myvideo').play();
+
     
 }
 function starttotal(){
