@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time Control</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="cabecalho">
+        <div id="dados-definidos" style="display:none;">
+                <div id="data">
+                <div id="data-txt"></div>
+                <div id="hora-txt"></div>
+                </div>
+                <p><h2>O TEMPO DEFINIDO FOI:</h2> <span>00:</span> <span id="min-definidos" >00</span><span>:</span><span id="seg-definidos">00</span></p>
+         
+        </div>
+            <h1 id="title">DEFINA TEMPO DE DESCANÇO:</h1>
+            <div id="dados">
+                <label for="minuts">Minutos:</label>
+                <input type="number" name="minuts" id="minuts" required minlength="1" maxlength="2" value="1">
+                <label for="seconds">Segundos:</label>
+                <input type="number" name="seconds" id="seconds" required minlength="1" maxlength="2" value="30">    
+            </div>
+            <input type="submit" value="INICIAR" id="iniciar" onclick="start();starttotal();tempodefinido();mudacor()">
+    </div>
+       
+            
+        
+
+       
+
+    <div class="display">
+        <span id="min" >00</span><span id="doisponto">:</span><span id="seg">00</span>
+    </div>
+
+
+
+
+
+
+    <div class="operadores">
+        <input type="button" value="PAUSAR" id="botaopausa" onclick="parar();" style="display: none;">
+        <input type="submit" value="CONTINUAR" id="continuar" onclick="start();starttotal();tempodefinido();mudacor()">
+        <a href="TimeControl.html" id="voltar" style="display:none; text-decoration: none;">VOLTAR</a>
+    </div>
+
+
+
+
+
+       
+        <div id="totaltreino"> 
+            <legend>TEMPO TOTAL DE TREINO:</legend>
+            <span id="mintot">00</span><span>:</span><span id="segtot">00</span>
+        </div>
+
+   
+    <script src="scriptsimples.js"></script>
+</body>
+</html>

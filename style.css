@@ -1,0 +1,151 @@
+
+*{
+    color: white;
+    font-family: Play;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-size: 40px;
+    font-family: 'glitch';
+}
+:root{
+    --cor1:#B771FA;
+    --cor2:#ff1c1c;
+    --cor3:#5A00AD;
+    --cor4:#F2CB05;
+    --cor5:#A65D03;
+    --cor6:#22fc29;
+    --cor7:#1790BF;
+}
+
+
+@font-face {
+    font-family:'glitch';
+    src: url('big_noodle_titling.ttf');
+}
+
+
+
+
+body{
+    height: 90vh;
+    width: 100%;
+    background: black url(img/5137894.jpg) no-repeat center;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+}
+input{
+    background-color: rgba(0, 0, 0, 0.341);
+    width: 70px;
+    padding: 10px;
+    border: none;
+    opacity: 60%;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.275);
+    transition: 0,3s;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.587);
+}
+input:hover{
+    opacity: 100%;
+    transition: 0.3s;
+    box-shadow: 2px 2px 2px rgba(255, 255, 255, 0.267);
+    transform: translate(1px, 1px);
+}
+#data{
+    width: 100%;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+
+}
+#data-txt, #hora-txt{
+    width: 200px;
+
+}
+#title{
+    margin-top: 50px;
+    font-weight: lighter;
+    font-size: 30px;
+}
+#dados{
+    display: block;
+    margin-top:20px;
+    margin-bottom: 30px;
+}
+#dados-definidos{
+    display: flex;
+    flex-direction: column;
+}
+#dados-definidos h2{
+    margin: 25px;
+}
+
+input#iniciar{
+    width: 200px;
+
+}
+
+.display{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 220px;
+    width: 435px;
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.579);
+}
+span#min, span#doisponto, span#seg{
+    color: orange;
+    font-size: 180px;
+    font-weight: 200;
+    font-family: glitch;
+    
+    
+}
+.operadores{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    height: 200px;
+    width: 100%;
+    margin-top: 100px;
+}
+#continuar{
+    display: none;
+    width: 200px;
+}
+#voltar{
+    width: 200px;
+    background-color: rgba(0, 0, 0, 0.341);
+    padding: 10px;
+    border: none;
+    opacity: 60%;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.275);
+    transition: 0,3s;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.587);
+}
+#voltar:hover{
+    opacity: 100%;
+    transition: 0.3s;
+    box-shadow: 2px 2px 2px rgba(255, 255, 255, 0.267);
+    transform: translate(1px, 1px);
+}
+#botaopausa{
+    width: 200px;
+}
+#totaltreino{
+    display: none;
+    border-radius: 15px;
+}
+#totaltreino legend{
+    margin: 25px;
+}
