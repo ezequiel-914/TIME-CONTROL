@@ -137,7 +137,7 @@ span#min, span#doisponto, span#seg{
 #totaltreino legend{
     margin: 25px;
 }
-@media (max-width: 400px){
+@media (max-width: 720px){
 
                     body{
                         width: 100%;
@@ -165,9 +165,5 @@ span#min, span#doisponto, span#seg{
                         width: 100px;
                         font-size: 30px;
                     }
-                 
-
-
-
-
+                    
 }
