@@ -149,6 +149,9 @@ span#min, span#doisponto, span#seg{
     font-size: 15px;
     color: gray;
 }
+video{
+    display: none;
+}
 @media screen and (min-width: 320px) and (max-width: 767px) and (orientation: landscape) {
     html {
       transform: rotate(-90deg);
