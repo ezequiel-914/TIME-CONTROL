@@ -108,14 +108,14 @@ function timer(){
                 }
 
                     else if(document.getElementById('min').style.color=="blue"){
+                        document.getElementById('min').style.color="darkorange";
+                        document.getElementById('doisponto').style.color="darkorange";
+                        document.getElementById('seg').style.color="darkorange";
+                    }
+                    else if(document.getElementById('min').style.color=="darkorange"){
                         document.getElementById('min').style.color="#22fc29";
                         document.getElementById('doisponto').style.color="#22fc29";
                         document.getElementById('seg').style.color="#22fc29";
-                    }
-                    else if(document.getElementById('min').style.color=="#22fc29"){
-                        document.getElementById('min').style.color="rgb(238, 158, 11)";
-                        document.getElementById('doisponto').style.color="rgb(238, 158, 11)";
-                        document.getElementById('seg').style.color="rgb(238, 158, 11)";
                     }
 
                     else{document.getElementById('min').style.color="white"; 
