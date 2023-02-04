@@ -63,6 +63,11 @@ function timer(){
     //document.getElementById('data').style.display="block";
     document.getElementById('voltar').style.display="block";
     document.getElementById('iniciar').style.display="none";
+    document.getElementById('display').style.display="block";
+    document.getElementById('mode').style.display="none";
+    document.getElementById('mode').style.position="relative";
+
+
     if(segundos>59){
         minutos++;
         segundos=0;
@@ -158,15 +163,17 @@ function tempototal(){
 function start(){
     tmp=setInterval(timer,1000);
     document.getElementById('myvideo').play();
-
     
 }
+
+    
+
 function starttotal(){
     tmpt=setInterval(tempototal,1000);
     document.getElementById('continuar').style.display="none";
     document.getElementById('title').style.display="none";
     document.getElementById('totaltreino').style.display="block";
-}
+ }
 
 
 
@@ -179,4 +186,5 @@ function parar(){
     document.getElementById('continuar').style.display="block";
     document.getElementById('iniciar').value="CONTINUAR";
     document.getElementById('botaopausa').style.display="none";
+
 }

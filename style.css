@@ -79,9 +79,23 @@ input#iniciar{
     width: 200px;
 
 }
-
+.mode{
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 120px;
+    width: 435px;
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.579);
+    color: orange;
+    font-size: 140px;
+    font-weight: 200;
+    font-family: glitch;
+}
 .display{
     position: absolute;
+    display: none;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -80%);
@@ -177,7 +191,7 @@ video{
                      #dados-definidos h2 {
                         margin: 5px;
                         font-size: 30px;
-                        color: rgb(88, 88, 88);
+                        color: rgb(107, 106, 106);
                         margin-bottom: 10px;
                 }
                     .display{
