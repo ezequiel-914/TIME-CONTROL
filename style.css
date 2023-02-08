@@ -27,6 +27,7 @@ body{
     justify-content: space-between;
     text-align: center;
 }
+
 .homediv{
     width: 100vw;
     height: 65px;
@@ -66,7 +67,7 @@ input:hover{
 }
 #data{
     width: 100%;
-    margin-top: 25px;
+    margin-top: 20px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -78,7 +79,7 @@ input:hover{
 
 }
 #title{
-    margin-top: 50px;
+    margin-top: 20px;
     font-weight: lighter;
     font-size: 40px;
 }
@@ -206,6 +207,12 @@ video{
                         width: 200px;
                         font-size: 25px;
                 }
+                .homediv{
+                    height: 30px;
+                }
+                .mode{
+                    width: 100vw;
+                }
                      #dados-definidos h2 {
                         margin: 5px;
                         font-size: 30px;
@@ -218,8 +225,6 @@ video{
                     }
                     input{
                         width: 50px;
-                        
-
                     }
                     label{
                         font-size: 30px;
@@ -244,4 +249,9 @@ video{
                         font-size: 10px;
                         color: gray;
                     }
+}
+@media (max-width: 300px){
+    .mode{
+        font-size: 100px;
+    }
 }
