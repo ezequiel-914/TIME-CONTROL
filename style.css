@@ -27,6 +27,26 @@ body{
     justify-content: space-between;
     text-align: center;
 }
+.homediv{
+    width: 100vw;
+    height: 65px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 40px;
+}
+.home{
+    width: 30px;
+    height: 30px;
+    background-image: url(img/home.png);
+    background-position: center center;
+    background-size: cover;
+    border-radius: 5px;
+}
+.home:hover{
+    box-shadow: white 2px 2px 3px;
+    transition: all 0.3s;
+}
 input{
     background-color: rgba(0, 0, 0, 0.341);
     width: 70px;

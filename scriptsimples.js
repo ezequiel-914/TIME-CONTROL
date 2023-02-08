@@ -173,6 +173,7 @@ function starttotal(){
     document.getElementById('continuar').style.display="none";
     document.getElementById('title').style.display="none";
     document.getElementById('totaltreino').style.display="block";
+    document.getElementById('homediv').style.display="none";
  }
 
 
